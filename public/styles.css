@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+
+#chat-messages {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.download-btn {
+  margin-left: 10px;
+}
+
+.preview-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+#emoji-picker {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  gap: 5px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.emoji {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#emoji-btn {
+  margin-top: 5px;
+}
